@@ -6,7 +6,7 @@ with open('DDOS_stacked_classifier.pickle', 'rb') as f:
     clf = pickle.load(f)
 
 
-def main():
+def app():
     st.set_page_config(
         page_title="DDOS Attack Prediction",
         page_icon="🧊", layout="centered",
@@ -35,4 +35,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    app()
